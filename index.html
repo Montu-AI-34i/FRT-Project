@@ -60,7 +60,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						<a class="nav-link scroll" href="#projects">Projects</a>
 					</li>
 					<li class="nav-item  mr-lg-3">
-						<a class="nav-link scroll" href="#Chatbot">Chatbot</a>
+						   <a class="navbar-brand" href="#" onclick="openChatbot()">Your Brand</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+					<!-- <a class="nav-link scroll" href="#Chatbot">Chatbot</a> -->
 					</li>
 					<li class="nav-item">
 						<a class="nav-link scroll" href="#contact">Contact</a>
@@ -72,6 +76,25 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						Register
 					</button>
 				</div>
+				  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="#" onclick="openChatbot()">Your Brand</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item mr-lg-3">
+            <a id="chatbotButton" class="nav-link scroll" href="#Chatbot" onclick="toggleChatbot()">Chatbot</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="chatbotPanel">
+    <iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/Interiorvale-Bot?s=kz-r6QN2HXg.MvdgP0q9ZYJPUnAX5KS3_9Q63Z3grvllKe-8gV3sSAE" style="height: 400px; max-height: 400px; width: 100%; border: none;"></iframe>
+  </div>
 				
 				
 			</div>
@@ -747,6 +770,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			});
 		});
 	</script>
+	
 	<!-- //Stats-Number-Scroller-Animation-JavaScript -->
 
 
@@ -778,6 +802,23 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
          
          });
       </script>
+
+    <script>
+    function toggleChatbot() {
+      var chatbotPanel = document.getElementById("chatbotPanel");
+
+      if (chatbotPanel.style.display === "none") {
+        chatbotPanel.style.display = "block";
+      } else {
+        chatbotPanel.style.display = "none";
+      }
+    }
+
+    function openChatbot() {
+      var chatbotPanel = document.getElementById("chatbotPanel");
+      chatbotPanel.style.display = "block";
+    }
+  </script>
       <!-- //here ends scrolling icon -->
 
 	
