@@ -1,15 +1,15 @@
 # <a href="https://icy-smoke-0f6b4e510.5.azurestaticapps.net">InteriorVale Architecture Design </a>
 
-🔮 FutureReadyTalent Project link <a href="https://icy-smoke-0f6b4e510.5.azurestaticapps.net"> azurestaticapps </a>
+🔮 FutureReadyTalent Project link <a href="https://icy-smoke-0f6b4e510.5.azurestaticapps.net"> azurestaticapps.net </a>
+
     Azure With DNS Own Domain Website Link <a href="www.techabove.online ">www.techabove.online </a>
-
-This is 10 Page Interiorvale Front End website design
-
+ 
+ ## Interiorvale Front End website design
 Web Technologies used: HTML, CSS, JS, Bootstrap
 
 IDE: VS-Code
 
-Note: Bot is deployed on contact page
+Note: Bot is deployed on chatbot
 
 ### Industry :
 Interior Architecture Design
