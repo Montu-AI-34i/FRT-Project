@@ -61,8 +61,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</li>
 					<li class="nav-item  mr-lg-3">
 						<a class="nav-link scroll" href="#Chatbot" onclick="openChatbot()">Chatbot</a>
-						<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                                                <span class="navbar-toggler-icon"></span>
+						
                                                 </button>
 					
 					</li>
@@ -77,9 +76,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 					</button>
 				</div>
 				
-					  <div id="chatbotPanel">
-					  <iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/Interiorvale-Bot?s=kz-r6QN2HXg.MvdgP0q9ZYJPUnAX5KS3_9Q63Z3grvllKe-8gV3sSAE" style="height: 400px; max-height: 400px; width: 100%; border: none;"></iframe>
-				  </div>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                                                <span class="navbar-toggler-icon"></span> <a id="chatbotButton" class="nav-link scroll" href="#Chatbot" onclick="toggleChatbot()">Chatbot</a>
+					<div id="chatbotPanel">
+						<iframe id="chatbotFrame" src="https://webchat.botframework.com/embed/Interiorvale-Bot?s=kz-r6QN2HXg.MvdgP0q9ZYJPUnAX5KS3_9Q63Z3grvllKe-8gV3sSAE" style="height: 400px; max-height: 400px; width: 100%; border: none;"></iframe>
+				       </div>
 				
 				
 			</div>
