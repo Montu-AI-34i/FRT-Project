@@ -1,4 +1,4 @@
-# <a href="https://icy-smoke-0f6b4e510.5.azurestaticapps.net">InteriorVale Architecture Design Website </a>
+# <a href="https://icy-smoke-0f6b4e510.5.azurestaticapps.net">InteriorVale Architecture Design </a>
 
 Azure link= https://icy-smoke-0f6b4e510.5.azurestaticapps.net
 
