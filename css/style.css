@@ -272,6 +272,32 @@ h5.modal-title {
 	background: transparent;
     border: 1px solid #fff;
  }
+/*-- //Chatbot service --*/
+#chatbotPanel {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 300px;
+  max-width: 90%;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+}
+#chatbotButton {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  z-index: 9999;
+}
+
 /*-- //banner-slider --*/
 /*--/banner-bottom --*/
 .w3-head-all h3 {
