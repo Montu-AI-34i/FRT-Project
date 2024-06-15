@@ -272,6 +272,8 @@ h5.modal-title {
 	background: transparent;
     border: 1px solid #fff;
  }
+
+
 /*-- //Chatbot service --*/
 #chatbotPanel {
   display: none;
@@ -284,6 +286,7 @@ h5.modal-title {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
+  z-index: 10000; /* Ensures the chatbox is in front of other content */
 }
 .navbar-nav .nav-link {
   color: #000; /* Adjust the color of the navbar links */
