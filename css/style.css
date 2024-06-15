@@ -285,6 +285,9 @@ h5.modal-title {
   background-color: rgba(255, 255, 255, 0.9);
   border-radius: 10px;
 }
+.navbar-nav .nav-link {
+  color: #000; /* Adjust the color of the navbar links */
+}
 #chatbotButton {
   position: fixed;
   bottom: 20px;
@@ -297,6 +300,13 @@ h5.modal-title {
   cursor: pointer;
   z-index: 9999;
 }
+.buttons {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  z-index: 9999;
+}
+
 
 /*-- //banner-slider --*/
 /*--/banner-bottom --*/
