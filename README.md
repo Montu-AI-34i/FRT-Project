@@ -2,7 +2,7 @@
 
 🔮 FutureReadyTalent Project link <a href="https://icy-smoke-0f6b4e510.5.azurestaticapps.net"> azurestaticapps.net </a>
 
-    Azure With DNS Own Domain Website Link <a href="www.techabove.online ">www.techabove.online </a>
+   Azure With DNS (Own Domain) Website Link <a href="www.techabove.online"> www.techabove.online </a>
  
  ## Interiorvale Front End website design
 Web Technologies used: HTML, CSS, JS, Bootstrap
