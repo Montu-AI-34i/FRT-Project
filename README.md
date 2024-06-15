@@ -1,6 +1,7 @@
 # <a href="https://icy-smoke-0f6b4e510.5.azurestaticapps.net">InteriorVale Architecture Design </a>
 
-Azure link= https://icy-smoke-0f6b4e510.5.azurestaticapps.net
+🔮 FutureReadyTalent Project link <a href="https://icy-smoke-0f6b4e510.5.azurestaticapps.net"> azurestaticapps </a>
+    Azure With DNS Own Domain Website Link <a href="www.techabove.online ">www.techabove.online </a>
 
 This is 10 Page Interiorvale Front End website design
 
