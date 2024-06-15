@@ -1,5 +1,7 @@
 # <a href="https://icy-smoke-0f6b4e510.5.azurestaticapps.net">InteriorVale Architecture Design Website </a>
 
+Azure link= https://icy-smoke-0f6b4e510.5.azurestaticapps.net
+
 This is 10 Page Interiorvale Front End website design
 
 Web Technologies used: HTML, CSS, JS, Bootstrap
