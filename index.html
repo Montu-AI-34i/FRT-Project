@@ -787,23 +787,27 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
          
          });
       </script>
-
-    <script>
+     <script>
     function toggleChatbot() {
-      var chatbotPanel = document.getElementById("chatbotPanel");
+  var chatbotPanel = document.getElementById("chatbotPanel");
 
-      if (chatbotPanel.style.display === "none") {
-        chatbotPanel.style.display = "block";
-      } else {
-        chatbotPanel.style.display = "none";
-      }
-    }
+  if (chatbotPanel.style.display === "none") {
+    chatbotPanel.style.display = "block";
+  } else {
+    chatbotPanel.style.display = "none";
+  }
+}
 
-    function openChatbot() {
-      var chatbotPanel = document.getElementById("chatbotPanel");
-      chatbotPanel.style.display = "block";
-    }
-  </script>
+function openChatbot() {
+  var chatbotPanel = document.getElementById("chatbotPanel");
+  chatbotPanel.style.display = "block";
+}
+
+document.getElementById("chatbotButton").addEventListener("click", function() {
+  openChatbot();
+});
+     </script>
+
       <!-- //here ends scrolling icon -->
 
 	
